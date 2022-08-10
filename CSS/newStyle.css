@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 5% 0% 5% 0%;
+  background-color: #ebebeb;
+}
+
+button {
+  border: 0px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  width: 55vw;
+  height: 25vh;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0% 26%;
+}
+
+.main_child {
+  height: 25vh;
+  width: 45vw;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0% 0% 0% 10%;
+}
+
+.inner {
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5%;
+  align-items: center;
+  margin: 0% 3%;
+}
+
+.vote {
+  background-color: #eef0f0;
+  width: 2.5vw;
+  height: 15vh;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.vote_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2vh;
+}
+
+.total_vote {
+  font-size: larger;
+  color: #2917a1;
+  font-weight: 600;
+}
+
+.display_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3vh;
+  align-items: center;
+}
+
+.display_header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20vw;
+}
+
+.display_header_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1vw;
+}
+
+.display_header_data img {
+  height: 4.5vh;
+  width: 5vh;
+}
+
+.reply {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5vw;
+  color: #2917a1;
+}
+
+.comment_text .time {
+  font-size: larger;
+  font-weight: 1000;
+}
+
+.comment_text,
+.name,
+.time {
+  color: #88898b;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+
+.replyingTo {
+  color: blue;
+}
+/*# sourceMappingURL=newStyle.css.map */
